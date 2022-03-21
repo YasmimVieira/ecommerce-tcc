@@ -1,0 +1,29 @@
+.menuOptions {
+    &__header {
+        h2 {
+            font-size: 2rem;
+            font-weight: 700;
+        }
+    }
+
+    &__itens {
+        display: flex;
+        justify-content: space-evenly;
+    }
+
+    &__objects {
+        border: 5px solid #6E5836;
+        background-color: #FFD075;
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+    }
+
+    &__images {
+        display: flex;
+        justify-content: center;
+        height: 8vh;
+        width: 10%;
+    }
+}
+

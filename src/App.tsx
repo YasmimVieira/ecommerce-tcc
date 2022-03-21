@@ -1,4 +1,5 @@
 import Button from './components/button/button';
+import NavBar from './components/navbar/navbar';
 
 function App() {
   return (
@@ -6,6 +7,7 @@ function App() {
       <Button
       type="submit"
       >Continuar</Button>
+      <NavBar></NavBar>
     </div>
   );
 }

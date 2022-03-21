@@ -1,9 +1,11 @@
-import './App.css';
+import Button from './components/button/button';
 
 function App() {
   return (
     <div className="App">
-      <p>Iniciando TCC :)</p>
+      <Button
+      type="submit"
+      >Continuar</Button>
     </div>
   );
 }

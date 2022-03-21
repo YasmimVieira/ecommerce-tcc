@@ -1,4 +1,4 @@
-import style from './button.module.scss';
+import style from './navbar.module.scss';
 
 type Props = { children: React.ReactNode; type: "submit" | "button" };
 

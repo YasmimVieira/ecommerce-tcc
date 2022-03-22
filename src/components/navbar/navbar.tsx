@@ -6,8 +6,8 @@ import style from './navbar.module.scss';
 export default function NavBar() {
     return(
         <>
-            <header>
-                <h1>Dual<span>Vet</span></h1>
+            <header className={style.header}>
+                <h1>Dual<span className={style.header__logo}>Vet</span></h1>
                 <TextField id="standard-basic" label="O que seu pet procura?" variant="standard" />
                 <Button type="button">Cadastra-se</Button>
                 <ButtonNoBack type="button">Entrar</ButtonNoBack>
@@ -17,9 +17,6 @@ export default function NavBar() {
                     <li><a href="" className={style.navbar__list__item}>Cachorros</a></li>
                     <li><a href="" className={style.navbar__list__item}>Gatos</a></li>
                     <li><a href="" className={style.navbar__list__item}>Pássaros</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Peixes</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Roedores</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Outros</a></li>
                     <li><a href="" className={style.navbar__list__item}>Contato</a></li>
                     <li><a href="" className={style.navbar__list__item}>Meus pedidos</a></li>
                 </ul>

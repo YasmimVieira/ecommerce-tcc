@@ -9,8 +9,10 @@ export default function NavBar() {
             <header className={style.header}>
                 <h1>Dual<span className={style.header__logo}>Vet</span></h1>
                 <TextField id="standard-basic" label="O que seu pet procura?" variant="standard" />
-                <Button type="button">Cadastra-se</Button>
-                <ButtonNoBack type="button">Entrar</ButtonNoBack>
+                <div className={style.header__buttons}>
+                    <Button type="button">Cadastra-se</Button>
+                    <ButtonNoBack type="button">Entrar</ButtonNoBack>
+                </div>
             </header>
             <nav className={style.navbar}>
                 <ul className={style.navbar__list}>

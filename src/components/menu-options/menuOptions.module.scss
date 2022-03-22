@@ -1,22 +1,30 @@
 .menuOptions {
     &__header {
+        display: flex;
+        justify-content: center;
+
         h2 {
             font-size: 2rem;
             font-weight: 700;
+            text-align: center;
+            border-left: 5px solid #F9A400;
         }
     }
 
     &__itens {
         display: flex;
         justify-content: space-evenly;
+        overflow: scroll;
     }
 
     &__objects {
         border: 5px solid #6E5836;
         background-color: #FFD075;
-        width: 100px;
-        height: 100px;
+        width: 50px;
+        height: 50px;
         border-radius: 50%;
+        margin-right: 1rem;
+        position: relative;
     }
 
     &__images {
@@ -24,6 +32,13 @@
         justify-content: center;
         height: 8vh;
         width: 10%;
+
+        img {
+            position: absolute;
+            width: 80%;
+            left: 2px;
+            bottom: 5px;
+        }
     }
 }
 

@@ -11,7 +11,7 @@ export default function NavBar() {
                 <TextField id="standard-basic" label="O que seu pet procura?" variant="standard" />
                 <div className={style.header__buttons}>
                     <Button type="button">Cadastra-se</Button>
-                    <ButtonNoBack type="button">Entrar</ButtonNoBack>
+                    <ButtonNoBack type="button" >Entrar</ButtonNoBack>
                 </div>
             </header>
             <nav className={style.navbar}>
@@ -19,6 +19,10 @@ export default function NavBar() {
                     <li><a href="" className={style.navbar__list__item}>Cachorros</a></li>
                     <li><a href="" className={style.navbar__list__item}>Gatos</a></li>
                     <li><a href="" className={style.navbar__list__item}>Pássaros</a></li>
+                    <li><a href="" className={style.navbar__list__item}>Peixes</a></li>
+                    <li><a href="" className={style.navbar__list__item}>Roedores</a></li>
+                    <li><a href="" className={style.navbar__list__item}>Pássaros</a></li>
+                    <li><a href="" className={style.navbar__list__item}>Outros</a></li>
                     <li><a href="" className={style.navbar__list__item}>Contato</a></li>
                     <li><a href="" className={style.navbar__list__item}>Meus pedidos</a></li>
                 </ul>

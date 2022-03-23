@@ -1,0 +1,28 @@
+.card {
+    height: 10%;
+    width: 10%;
+    padding: 1rem;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    transition: .5s ease-out;
+
+    &:hover {
+        box-shadow: 0px 4px 12px 0px #42424240;
+    }
+
+    &__icon {
+        cursor: pointer;
+    }
+
+    &__header {
+        display: flex;
+        align-items: end;
+
+        img {
+            width: 80%;
+            height: 20%;
+        }
+    }
+}

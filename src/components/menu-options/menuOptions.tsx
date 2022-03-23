@@ -15,28 +15,33 @@ export default function MenuOptions() {
                 <section className={style.menuOptions__itens}>
                     <section className={style.menuOptions__objects}>
                         <figure className={style.menuOptions__images}>
-                            <img src={pet} alt="" />
+                            <img src={petShop} alt="" />
                         </figure>
+                        <p className={style.menuOptions__description}>Rações e petiscos</p>
                     </section>
                     <section className={style.menuOptions__objects}>
                         <figure className={style.menuOptions__images}>
                             <img src={petBrinquedo} alt="" />
                         </figure>
+                        <p className={style.menuOptions__description}>Brinquedos</p>
                     </section>
                     <section className={style.menuOptions__objects}>
                         <figure className={style.menuOptions__images}>
                             <img src={petScratcher} alt="" />
                         </figure>
+                        <p className={style.menuOptions__description}>Acessórios</p>
+                    </section>
+                    <section className={style.menuOptions__objects}>
+                        <figure className={style.menuOptions__images}>
+                            <img src={pet} alt="" />
+                        </figure>
+                        <p className={style.menuOptions__description}>Shampoo</p>
                     </section>
                     <section className={style.menuOptions__objects}>
                         <figure className={style.menuOptions__images}>
                             <img src={petGarrafa} alt="" />
                         </figure>
-                    </section>
-                    <section className={style.menuOptions__objects}>
-                        <figure className={style.menuOptions__images}>
-                            <img src={petShop} alt="" />
-                        </figure>
+                        <p className={style.menuOptions__description}>Remédios</p>
                     </section>
                 </section>
             </section>

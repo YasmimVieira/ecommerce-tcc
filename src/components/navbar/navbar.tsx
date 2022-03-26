@@ -2,6 +2,7 @@ import TextField from '@mui/material/TextField';
 import Button from '../button/button';
 import ButtonNoBack from '../button/button-no-background/buttonNoBack';
 import style from './navbar.module.scss';
+import shopCart from '../../assets/img/shopcart.svg';
 
 export default function NavBar() {
     return(
@@ -16,15 +17,20 @@ export default function NavBar() {
             </header>
             <nav className={style.navbar}>
                 <ul className={style.navbar__list}>
-                    <li><a href="" className={style.navbar__list__item}>Cachorros</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Gatos</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Pássaros</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Peixes</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Roedores</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Pássaros</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Outros</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Contato</a></li>
-                    <li><a href="" className={style.navbar__list__item}>Meus pedidos</a></li>
+                    <div className={style.navbar__list__options}> 
+                        <li><a className={style.navbar__list__item}>Cachorros</a></li>
+                        <li><a className={style.navbar__list__item}>Gatos</a></li>
+                        <li><a className={style.navbar__list__item}>Pássaros</a></li>
+                        <li><a className={style.navbar__list__item}>Peixes</a></li>
+                        <li><a className={style.navbar__list__item}>Roedores</a></li>
+                        <li><a className={style.navbar__list__item}>Pássaros</a></li>
+                        <li><a className={style.navbar__list__item}>Outros</a></li>
+                        <li><a className={style.navbar__list__item}>Contato</a></li>
+                        <li><a className={style.navbar__list__item}>Meus pedidos</a></li>
+                    </div>
+                    <div>
+                        <img src={shopCart} alt="" />
+                    </div>
                 </ul>
             </nav>
         </>

@@ -3,15 +3,17 @@ import MenuOptions from './components/menu-options/menuOptions';
 import NavBar from './components/navbar/navbar';
 import Products from './pages/products/products';
 import './App.scss';
+import Signin from './pages/authentication/signin/signin';
 
 function App() {
   return (
     <div className="App">
-      <NavBar></NavBar>
+      {/* <NavBar></NavBar>
       <main className="main">
         <MenuOptions></MenuOptions>
         <Products /> 
-      </main>
+      </main> */}
+      <Signin />
     </div>
   );
 }

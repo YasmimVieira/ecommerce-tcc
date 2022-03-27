@@ -1,0 +1,62 @@
+.signin {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+    &__illustration {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+        background-color: #F5A200;
+        height: 100vh;
+    }
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 1rem;
+
+        &__header {
+
+            p {
+                font-size: 2rem;
+                font-weight: 700;
+                text-align: center;
+            }
+        }
+    }
+
+    &__link {
+        color: #6E5836;
+        text-decoration: none;
+        cursor: pointer;
+        position: relative;
+        margin-left: 0.9rem;
+        transition: .5s ease;
+        font-weight: 700;
+        margin: 1rem;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 100%;
+            height: 0.175rem;
+            left: 0;
+            bottom: 0;
+            background: #F9A400;
+            transform: scale(0, 1);
+            transform-origin: 0% 100%;
+            transition: transform 0.3s ease;
+        }
+
+        &:hover::after {
+            transform: scale(1, 1);
+        }
+    }
+
+    &__footer {
+        margin-left: 0.5rem;
+    }
+}
